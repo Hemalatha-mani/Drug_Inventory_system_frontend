@@ -183,7 +183,8 @@ import {
 function DrugRequests() {
 
   const API_URL =
-    "http://localhost:8080/api/drugrequests";
+    //"http://localhost:8080/api/drugrequests";
+    "https://drug-inventory-system-backend-2.onrender.com/api/drugrequests";
 
   const [requests, setRequests] = useState([]);
 
