@@ -51,7 +51,8 @@ const currentDrugs = filteredDrugs.slice(firstIndex,lastIndex);
 const totalPages = Math.ceil(filteredDrugs.length / recordsPerPage);
 
 
-  const API_URL = "http://localhost:8080/api/drugs";
+  const API_URL = //"http://localhost:8080/api/drugs";
+    "https://drug-inventory-system-backend-2.onrender.com/api/drugs";
 
   useEffect(() => {
     loadDrugs();
