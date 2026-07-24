@@ -1,0 +1,139 @@
+.vendors-page{
+  padding:30px;
+  background:#a9c1f0;
+  min-height:100vh;
+}
+
+.vendors-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:20px;
+}
+
+.vendors-header h2{
+  font-size:32px;
+  font-weight:700;
+}
+
+.add-vendor-btn{
+  background:#0b5fff;
+  color:white;
+  border:none;
+  padding:12px 22px;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight:600;
+}
+
+.search-area{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  margin-bottom:20px;
+}
+
+.vendor-search{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  border:1px solid #ddd;
+  border-radius:8px;
+  padding:12px;
+}
+
+.vendor-search input{
+  border:none;
+  outline:none;
+  width:100%;
+}
+
+.vendor-table-container{
+  background:white;
+  border-radius:10px;
+  overflow:hidden;
+}
+
+.vendor-table-container table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+.vendor-table-container th{
+  background:#1a47cd;
+  padding:18px;
+  text-align:left;
+}
+
+.vendor-table-container td{
+  padding:18px;
+  border-top:1px solid #eee;
+}
+
+.edit-btn{
+  background:#4da3ff;
+  color:white;
+  border:none;
+  padding:8px 12px;
+  border-radius:5px;
+  margin-right:8px;
+  cursor:pointer;
+}
+
+.delete-btn{
+  background:#ff4d4d;
+  color:white;
+  border:none;
+  padding:8px 12px;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.vendor-pagination{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-top:20px;
+}
+
+.page-buttons button{
+  border:none;
+  background:#eee;
+  padding:8px 12px;
+  margin-left:5px;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.page-buttons .active{
+  background:#0b5fff;
+  color:white;
+}
+
+.vendor-form {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.vendor-form input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 220px;
+}
+
+.vendor-form{
+  display:flex;
+  gap:15px;
+  margin:20px 0;
+  flex-wrap:wrap;
+}
+
+.vendor-form input{
+  padding:10px;
+  border:1px solid #ddd;
+  border-radius:6px;
+  width:220px;
+}

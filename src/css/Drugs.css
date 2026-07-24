@@ -1,0 +1,126 @@
+.drugs-page{
+  padding:30px;
+  background:#a1c2f4;
+  min-height:100vh;
+}
+
+.drugs-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:20px;
+}
+
+.add-btn{
+  background:#0b5fff;
+  color:white;
+  border:none;
+  padding:12px 20px;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.search-section{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:20px;
+}
+
+.search-box{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  width:70%;
+  border:1px solid #ddd;
+  padding:10px;
+  border-radius:8px;
+}
+
+.search-box input{
+  border:none;
+  outline:none;
+  width:100%;
+}
+
+.filter-btn{
+  background:white;
+  border:1px solid #ddd;
+  padding:10px 20px;
+  border-radius:8px;
+}
+
+.table-container{
+  background:white;
+  border-radius:10px;
+  overflow:hidden;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+th{
+  background:#f7f7f7;
+  padding:15px;
+  text-align:left;
+}
+
+td{
+  padding:15px;
+  border-top:1px solid #eee;
+}
+
+.edit-btn{
+  background:#4da3ff;
+  color:white;
+  border:none;
+  padding:8px 10px;
+  border-radius:5px;
+  margin-right:5px;
+}
+
+.delete-btn{
+  background:#ff4d4d;
+  color:white;
+  border:none;
+  padding:8px 10px;
+  border-radius:5px;
+}
+
+.pagination{
+  margin-top:20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.page{
+  border:none;
+  background:#eee;
+  padding:8px 12px;
+  margin-left:5px;
+  border-radius:5px;
+}
+
+.page.active{
+  background:#0b5fff;
+  color:white;
+}
+
+.drug-form{
+  display:flex;
+  gap:15px;
+  margin-bottom:20px;
+  flex-wrap:wrap;
+}
+
+.drug-form input{
+  padding:10px;
+  border:1px solid #ddd;
+  border-radius:8px;
+  min-width:180px;
+}

@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+.login-container{
+    display:flex;
+    height:100vh;
+}
+
+/* LEFT SIDE */
+
+.left-panel{
+    width:50%;
+    background:linear-gradient(
+        135deg,
+        #5d81dc,
+        #002d7a
+    );
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+.left-content{
+    text-align:center;
+    width:80%;
+}
+
+.medicine-icon{
+    font-size:90px;
+    margin-bottom:20px;
+}
+
+.left-content h1{
+    font-size:42px;
+    line-height:1.3;
+    font-weight:bold;
+}
+
+.line{
+    width:250px;
+    height:3px;
+    background:white;
+    margin:25px auto;
+}
+
+.left-content p{
+    font-size:22px;
+}
+
+/* RIGHT SIDE */
+
+.right-panel{
+    width:50%;
+    background:#f4f6f9;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-card{
+    width:420px;
+    background:white;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 4px 20px rgba(0,0,0,0.1);
+}
+
+.user-avatar{
+    text-align:center;
+    font-size:55px;
+    color:#0048ff;
+    margin-bottom:10px;
+}
+
+.login-card h2{
+    text-align:center;
+    color:#3f72ca;
+}
+
+.subtitle{
+    text-align:center;
+    color:gray;
+    margin-bottom:20px;
+}
+
+/* INPUTS */
+
+label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:5px;
+    font-weight:600;
+}
+
+.input-box{
+    position:relative;
+    margin-bottom:15px;
+}
+
+.input-box input{
+    width:100%;
+    height:45px;
+    padding-left:40px;
+    padding-right:40px;
+
+    border:1px solid #ccc;
+    border-radius:8px;
+
+    font-size:15px;
+}
+
+.input-box input:focus{
+    outline:none;
+    border-color:#0048ff;
+}
+
+.input-icon{
+    position:absolute;
+    left:12px;
+    top:50%;
+    transform:translateY(-50%);
+    color:#777;
+}
+
+.eye-icon{
+    position:absolute;
+    right:12px;
+    top:50%;
+    transform:translateY(-50%);
+    cursor:pointer;
+    color:#777;
+}
+
+/* OPTIONS */
+
+.options{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    margin-top:10px;
+    margin-bottom:20px;
+
+    font-size:14px;
+}
+
+.options a{
+    text-decoration:none;
+    color:#0048ff;
+}
+
+/* BUTTON */
+
+.login-btn{
+    width:100%;
+    height:45px;
+
+    border:none;
+    border-radius:8px;
+
+    background:#0048ff;
+    color:white;
+
+    font-size:16px;
+    font-weight:600;
+
+    cursor:pointer;
+}
+
+.login-btn:hover{
+    background:#4f78eb;
+}
+
+/* FOOTER */
+
+.footer{
+    text-align:center;
+    margin-top:25px;
+    color:gray;
+    font-size:13px;
+}
