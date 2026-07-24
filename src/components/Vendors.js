@@ -18,7 +18,8 @@ function Vendors() {
   const [editId, setEditId] = useState(null);
   const [currentPage, setCurrentPage] =useState(1);
 
-  const API_URL = "http://localhost:8080/api/vendors";
+  const API_URL = //"http://localhost:8080/api/vendors";
+    "https://drug-inventory-system-backend-2.onrender.com/api/vendors";
   useEffect(() => {
   loadVendors();
 }, []);
