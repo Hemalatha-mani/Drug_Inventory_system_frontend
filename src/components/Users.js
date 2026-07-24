@@ -13,7 +13,8 @@ import {
 function Users() {
 
   const API_URL =
-    "http://localhost:8080/api/users";
+    //"http://localhost:8080/api/users";
+    "https://drug-inventory-system-backend-2.onrender.com/api/users";
 
   const [users,setUsers] = useState([]);
 
