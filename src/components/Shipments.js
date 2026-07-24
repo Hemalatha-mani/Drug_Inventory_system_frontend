@@ -13,7 +13,8 @@ import {
 
 function Shipments() {
 
-  const API_URL = "http://localhost:8080/api/shipments";
+  const API_URL = //"http://localhost:8080/api/shipments";
+    "https://drug-inventory-system-backend-2.onrender.com/api/shipments";
 
   const [shipments, setShipments] = useState([]);
 
