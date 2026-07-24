@@ -36,7 +36,8 @@ const loadDashboard = async () => {
 
     const result =
       await axios.get(
-        "http://localhost:8080/api/dashboard"
+        //"http://localhost:8080/api/dashboard"
+        "https://drug-inventory-system-backend-2.onrender.com"
       );
 
     setDashboardData(result.data);
