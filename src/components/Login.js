@@ -27,7 +27,8 @@ function Login() {
 
     const response =
       await axios.post(
-        "http://localhost:8080/api/auth/login",
+        //"http://localhost:8080/api/auth/login",
+        "https://drug-inventory-system-backend-2.onrender.com/api/auth/login",
         {
           username,
           password
