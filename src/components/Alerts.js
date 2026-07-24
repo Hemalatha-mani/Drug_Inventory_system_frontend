@@ -11,7 +11,8 @@ import {
 function Alerts() {
 
   const API_URL =
-    "http://localhost:8080/api/alerts";
+    //"http://localhost:8080/api/alerts";
+    "https://drug-inventory-system-backend-2.onrender.com/api/alerts";
 
   const [alerts, setAlerts] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
