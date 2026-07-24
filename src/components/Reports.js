@@ -41,7 +41,8 @@ function Reports() {
 
     const inventory =
       await axios.get(
-        "http://localhost:8080/api/reports/inventory"
+        //"http://localhost:8080/api/reports/inventory"
+       "https://drug-inventory-system-backend-2.onrender.com/api/reports/inventory"
       );
 
     // const shipment =
@@ -51,11 +52,14 @@ function Reports() {
 
     const vendor =
       await axios.get(
-        "http://localhost:8080/api/reports/vendor"
+        //"http://localhost:8080/api/reports/vendor"
+        "https://drug-inventory-system-backend-2.onrender.com/api/reports/vendor"
+       
       );
 
     const monthly = await axios.get(
-  `http://localhost:8080/api/reports/monthly?fromDate=${fromDate}&toDate=${toDate}`
+  //`http://localhost:8080/api/reports/monthly?fromDate=${fromDate}&toDate=${toDate}`
+     `https://drug-inventory-system-backend-2.onrender.com/api/reports/monthly?fromDate=${fromDate}&toDate=${toDate}`
 );
 
     setInventoryData([
@@ -252,7 +256,8 @@ const generateReport = async () => {
   try {
 
     const monthly = await axios.get(
-      `http://localhost:8080/api/reports/monthly?fromDate=${fromDate}&toDate=${toDate}`
+      //`http://localhost:8080/api/reports/monthly?fromDate=${fromDate}&toDate=${toDate}`
+     `https://drug-inventory-system-backend-2.onrender.com/api/reports/monthly?fromDate=${fromDate}&toDate=${toDate}`
     );
 
     setMonthlyData(monthly.data);
