@@ -10,7 +10,8 @@ import "../css/Settings.css";
 function Settings() {
 
 const API_URL =
-"http://localhost:8080/api/settings";
+//"http://localhost:8080/api/settings";
+  "https://drug-inventory-system-backend-2.onrender.com/api/settings";
 
 const [settings,setSettings] =
 useState({});
